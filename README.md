@@ -11,6 +11,7 @@ This repository contains a notepad program implemented in Python, utilizing the 
 - The TextEditor component is responsible for managing the cursor's position, handling keyboard inputs, and displaying the text on the screen.
 - All actions in the program can be performed either via keyboard shortcuts or through buttons provided in the user interface.
 - The cursor can be moved using the arrow keys.
+- You can save files as .mytxt and open them later. Two example files are in the mySavedFiles folder.
 
 ## Clipboard Functionality
 
