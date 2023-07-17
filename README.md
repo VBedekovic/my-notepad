@@ -1,6 +1,3 @@
-# my-notepad
-My notepad program written in Python with the tkinter library. The project was an exercise for design patterns.
-
 # Notepad Program with Design Patterns
 
 This repository contains a notepad program implemented in Python, utilizing the tkinter library. The project was developed as an exercise to demonstrate the implementation of various design patterns.
