@@ -217,7 +217,7 @@ class TextEditor(Canvas, CursorObserver, TextObserver):
     
     def openTextDocument(self, event = None):
         self.filePath = filedialog.askopenfilename(title='Open a mytxt file',
-                                          initialdir='D:\Desktop\FER\FER Codes\Oblikovni obrasci u programiranju\3_labos',
+                                          initialdir='.\mySavedFiles',
                                           filetypes=TextEditor.FILETYPES)
         
         with open(self.filePath, "r") as file:
@@ -238,6 +238,7 @@ class TextEditor(Canvas, CursorObserver, TextObserver):
     def saveTextDocument(self, event = None):
         if not self.openFile:
             saveFile = filedialog.asksaveasfile(defaultextension=".mytxt",
+                                            initialdir='.\mySavedFiles',
                                             filetypes=TextEditor.FILETYPES)
         else:
             saveFile = open(self.filePath, "w")
